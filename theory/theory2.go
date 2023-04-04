@@ -18,3 +18,14 @@ func ForRange() {
 	result := superAdd(1, 2, 3, 4, 5, 6)
 	fmt.Println(result)
 }
+
+func canIDrink(age int) bool {
+	if koreanAge := age + 2; koreanAge < 20 {
+		return false
+	}
+	return true
+}
+
+func IfElse() {
+	fmt.Println(canIDrink(18))
+}
