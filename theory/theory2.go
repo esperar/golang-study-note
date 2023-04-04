@@ -7,6 +7,10 @@ func superAdd(numbers ...int) int {
 	for _, number := range numbers {
 		total += number
 	}
+
+	for i := 0; i < len(numbers); i++ {
+		fmt.Println(i)
+	}
 	return total
 }
 
